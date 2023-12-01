@@ -9,4 +9,4 @@ As you can see, There's some decent and bad code in this. This is me progressing
 
 USE AT OWN RISK
 
-No license attacked!
+No license attached!
