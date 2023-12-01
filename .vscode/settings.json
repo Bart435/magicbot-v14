@@ -1,0 +1,19 @@
+{
+	"sqltools.connections": [
+		{
+			"mysqlOptions": {
+				"authProtocol": "default",
+				"enableSsl": "Disabled"
+			},
+			"previewLimit": 50,
+			"server": "144.76.15.59",
+			"port": 3306,
+			"driver": "MySQL",
+			"name": "MagicArk",
+			"username": "Bart",
+			"database": "discman",
+			"askForPassword": true
+		}
+	],
+	"cSpell.words": ["QRBY"]
+}

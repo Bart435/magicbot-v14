@@ -1,0 +1,26 @@
+{
+  "name": "magicbot",
+  "version": "2.0.0",
+  "description": "discordbot designed specificly for magicark",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "bart435",
+  "license": "ISC",
+  "dependencies": {
+    "@fabricio-191/valve-server-query": "^4.1.9",
+    "axios": "^0.27.2",
+    "discord-giveaways": "^6.0.1",
+    "discord-html-transcripts": "^2.6.1",
+    "discord.js": "^14.8.0",
+    "googleapis": "^123.0.0",
+    "ms": "^2.1.3",
+    "mysql": "^2.18.1",
+    "node-superfetch": "^0.2.3",
+    "request": "^2.88.2",
+    "sqlite3": "^5.0.11",
+    "superagent": "^8.1.2"
+  }
+}

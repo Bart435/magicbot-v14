@@ -1,0 +1,451 @@
+{
+	"secrets": {
+		"discord_token": "",
+		"steamapi_key": "",
+		"youtubeapi_key": ""
+	},
+	"mysqlDB": {
+		"host": "144.76.15.59",
+		"user": "",
+		"password": "",
+		"port": 3306
+	},
+	"info": {
+		"embed": {
+			"color": "#8a2be2",
+			"footer": "Support us on store.magicark.co.uk",
+			"url": "https://store.magicark.co.uk"
+		},
+		"mainGuild": "714431289180291142",
+		"ownerId": "338363146206969858",
+		"verifiedRole": "1098917528278945862",
+		"prefix": ".",
+		"boostedCategory": "1098765739139268760",
+		"basicCategory": "1116746364798373888"
+	},
+	"discordStatus": {
+		"total": {
+			"channelid": "1117410552671641630",
+			"name": "All Members: {members}"
+		},
+		"basic": {
+			"channelid": "1117937892908605632",
+			"name": "Basic: {members}",
+			"roleId": "1116625591949606964"
+		},
+		"boosted": {
+			"channelid": "1117938010244259921",
+			"name": "Boosted: {members}",
+			"roleId": "1098772014216523857"
+		},
+		"modding": {
+			"channelid": "1118255177649111111",
+			"name": "Modding: {members}",
+			"roleId": "1118181130886189108"
+		},
+		"refresh": 600000
+	},
+	"voteSystem": {
+		"amount": 200,
+		"amount10x": 100,
+		"url": "https://ark-servers.net/api/?object=servers&element=votes&key={ServerKey}&format={Format}",
+		"webhook": ""
+	},
+	"inviteSystem": {
+		"amount": 250,
+		"webhook": ""
+	},
+	"muteSystem": {
+		"roleId": "1098917703512752199",
+		"webhook": ""
+	},
+	"ticketSystem": {
+		"category": "1098766081021202452",
+		"handler": "1101859905218039928",
+		"handler10x": "1123849754795835433",
+		"handler100x": "968784213912473630",
+		"everyone": "714431289180291142",
+		"webhook": ""
+	},
+	"welcomeSystem": {
+		"roleId": "1098772014216523857",
+		"webhook": ""
+	},
+	"boosterSystem": {
+		"group": "booster",
+		"webhook": ""
+	},
+	"ingame_points": {
+		"webhook": ""
+	},
+	"walletSystem": {
+		"ratio": 2,
+		"value_1": 10,
+		"value_2": 50,
+		"value_3": 100,
+		"value_4": 250,
+		"value_5": 500,
+		"webhook": ""
+	},
+	"creatorSystem": {
+		"webhook": "",
+		"webhook_backend": "",
+		"period": 90,
+		"refresh": 120000
+	},
+	"kitSystem": {
+		"webhook": "",
+		"kits": [
+			{
+				"enabled": true,
+				"name": "ds-desmodus",
+				"filePath": "E:/Bart/Discord/MagicBot-100x/src/lib/assets/kitBanners/desmodus.png",
+				"price": 1250,
+				"quantity": 1
+			},
+			{
+				"enabled": true,
+				"name": "ds-giga",
+				"filePath": "E:/Bart/Discord/MagicBot-100x/src/lib/assets/kitBanners/giga.png",
+				"price": 1500,
+				"quantity": 1
+			},
+			{
+				"enabled": true,
+				"name": "PVP_kit",
+				"filePath": "E:/Bart/Discord/MagicBot-100x/src/lib/assets/kitBanners/pvp.png",
+				"price": 150,
+				"quantity": 1
+			},
+			{
+				"enabled": true,
+				"name": "ds-rex",
+				"filePath": "E:/Bart/Discord/MagicBot-100x/src/lib/assets/kitBanners/rex.png",
+				"price": 1250,
+				"quantity": 1
+			},
+			{
+				"enabled": true,
+				"name": "ds-shadow",
+				"filePath": "E:/Bart/Discord/MagicBot-100x/src/lib/assets/kitBanners/shadowmane.png",
+				"price": 1250,
+				"quantity": 1
+			},
+			{
+				"enabled": true,
+				"name": "ds-stego",
+				"filePath": "E:/Bart/Discord/MagicBot-100x/src/lib/assets/kitBanners/stego.png",
+				"price": 1000,
+				"quantity": 1
+			},
+			{
+				"enabled": true,
+				"name": "ds-theri",
+				"filePath": "E:/Bart/Discord/MagicBot-100x/src/lib/assets/kitBanners/theri.png",
+				"price": 1250,
+				"quantity": 1
+			},
+			{
+				"enabled": true,
+				"name": "ds-turtle",
+				"filePath": "E:/Bart/Discord/MagicBot-100x/src/lib/assets/kitBanners/turtle.png",
+				"price": 750,
+				"quantity": 1
+			},
+			{
+				"enabled": true,
+				"name": "ds-velo",
+				"filePath": "E:/Bart/Discord/MagicBot-100x/src/lib/assets/kitBanners/velo.png",
+				"price": 750,
+				"quantity": 1
+			}
+		]
+	},
+	"tokenSystem": {
+		"webhook": "",
+		"100x": [
+			{
+				"enabled": true,
+				"name": "DinoChangeGender",
+				"description": "Changes the Gender of the dino youre looking at",
+				"price": 100,
+				"quantity": 3
+			},
+			{
+				"enabled": true,
+				"name": "DinoFertile",
+				"description": "Changes a neutered Dino to Fertile",
+				"price": 500,
+				"quantity": 2
+			},
+			{
+				"enabled": true,
+				"name": "DinoMindWipe",
+				"description": "Reset the levels of the dino you look at",
+				"price": 100,
+				"quantity": 5
+			},
+			{
+				"enabled": true,
+				"name": "PlayerCharacterWipe",
+				"description": "Mind wipes your character",
+				"price": 100,
+				"quantity": 5
+			},
+			{
+				"enabled": true,
+				"name": "PlayerCompleteMission",
+				"description": "Completes the mission you're currently on",
+				"price": 250,
+				"quantity": 2
+			},
+			{
+				"enabled": true,
+				"name": "PlayerEnemyScan",
+				"description": "Prints amount of hostile players in 50 foundation range to your chat",
+				"price": 250,
+				"quantity": 2
+			},
+			{
+				"enabled": true,
+				"name": "getbody",
+				"description": "Retrieves your deathbag instantly",
+				"price": 200,
+				"quantity": 10
+			},
+			{
+				"enabled": true,
+				"name": "PlayerRename",
+				"description": "Allow you to Rename your Character",
+				"price": 300,
+				"quantity": 2
+			},
+			{
+				"enabled": true,
+				"name": "suicide",
+				"description": "Kills you character",
+				"price": 200,
+				"quantity": 30
+			},
+			{
+				"enabled": true,
+				"name": "color",
+				"description": "Changes the color region of a dino",
+				"price": 100,
+				"quantity": 20
+			}
+		],
+		"10x": []
+	},
+	"servers": {
+		"beginners": [
+			{
+				"enabled": true,
+				"name": "The Island",
+				"queryPort": 27037,
+				"rconPort": 32370,
+				"ip": "144.76.15.59",
+				"key": "",
+				"url": "http://tinyurl.com/MAragbeginner",
+				"voteUrl": ""
+			}
+		],
+		"100x": [
+			{
+				"enabled": true,
+				"name": "Ragnarok",
+				"queryPort": 27015,
+				"rconPort": 32330,
+				"ip": "144.76.15.59",
+				"key": "",
+				"url": "https://tinyurl.com/MAragnarok1",
+				"voteUrl": "https://ark-servers.net/server/316983/"
+			},
+			{
+				"enabled": true,
+				"name": "The Island",
+				"queryPort": 27016,
+				"rconPort": 32332,
+				"ip": "144.76.15.59",
+				"key": "",
+				"url": "https://tinyurl.com/MAisland1",
+				"voteUrl": "https://ark-servers.net/server/316987/"
+			},
+			{
+				"enabled": true,
+				"name": "The Center",
+				"queryPort": 27017,
+				"rconPort": 32334,
+				"ip": "144.76.15.59",
+				"key": "",
+				"url": "https://tinyurl.com/MAcenter11",
+				"voteUrl": "https://ark-servers.net/server/316984/"
+			},
+			{
+				"enabled": true,
+				"name": "Valguero",
+				"queryPort": 27018,
+				"rconPort": 32336,
+				"ip": "144.76.15.59",
+				"key": "",
+				"url": "https://tinyurl.com/MAfjordur1",
+				"voteUrl": "https://ark-servers.net/server/316988/"
+			},
+			{
+				"enabled": true,
+				"name": "Extinction",
+				"queryPort": 27020,
+				"rconPort": 32340,
+				"ip": "144.76.15.59",
+				"key": "",
+				"url": "https://tinyurl.com/MAexti1",
+				"voteUrl": "https://ark-servers.net/server/319078/"
+			},
+			{
+				"enabled": true,
+				"name": "Genesis 2",
+				"queryPort": 27021,
+				"rconPort": 32342,
+				"ip": "144.76.15.59",
+				"key": "",
+				"url": "https://tinyurl.com/MAgenesi1",
+				"voteUrl": "https://ark-servers.net/server/316989/"
+			}
+		],
+		"10x": [
+			{
+				"enabled": true,
+				"name": "The Island",
+				"queryPort": 27025,
+				"rconPort": 32346,
+				"ip": "144.76.15.59",
+				"key": "",
+				"url": "https://tinyurl.com/MAisland10x",
+				"voteUrl": "https://ark-servers.net/server/342509/"
+			},
+			{
+				"enabled": true,
+				"name": "Ragnarok",
+				"queryPort": 27026,
+				"rconPort": 32348,
+				"ip": "144.76.15.59",
+				"key": "",
+				"url": "https://tinyurl.com/MARagnarok10x1",
+				"voteUrl": "https://ark-servers.net/server/342511/"
+			},
+			{
+				"enabled": true,
+				"name": "The Center",
+				"queryPort": 27027,
+				"rconPort": 32350,
+				"ip": "144.76.15.59",
+				"key": "",
+				"url": "https://tinyurl.com/MAcenter10x1",
+				"voteUrl": "https://ark-servers.net/server/342510/"
+			},
+			{
+				"enabled": true,
+				"name": "Valguero",
+				"queryPort": 27028,
+				"rconPort": 32352,
+				"ip": "144.76.15.59",
+				"key": "",
+				"url": "https://tinyurl.com/MAvalg10x",
+				"voteUrl": "https://ark-servers.net/server/342513/"
+			},
+			{
+				"enabled": true,
+				"name": "Fjordur",
+				"queryPort": 27029,
+				"rconPort": 32354,
+				"ip": "144.76.15.59",
+				"key": "",
+				"url": "https://tinyurl.com/MAfjor10x",
+				"voteUrl": "https://ark-servers.net/server/342512/"
+			},
+			{
+				"enabled": true,
+				"name": "Crystal Isle",
+				"queryPort": 27030,
+				"rconPort": 32358,
+				"ip": "144.76.15.59",
+				"key": "",
+				"url": "https://tinyurl.com/MAcrystal10x",
+				"voteUrl": "https://ark-servers.net/server/342515/"
+			},
+			{
+				"enabled": true,
+				"name": "Scorched Earth",
+				"queryPort": 27031,
+				"rconPort": 32360,
+				"ip": "144.76.15.59",
+				"key": "",
+				"url": "https://tinyurl.com/MAscorched10x",
+				"voteUrl": "https://ark-servers.net/server/342517/"
+			},
+			{
+				"enabled": true,
+				"name": "Lost Island",
+				"queryPort": 27032,
+				"rconPort": 32356,
+				"ip": "144.76.15.59",
+				"key": "",
+				"url": "https://tinyurl.com/MAlost10x",
+				"voteUrl": "https://ark-servers.net/server/342514/"
+			},
+			{
+				"enabled": true,
+				"name": "Extinction",
+				"queryPort": 27033,
+				"rconPort": 32364,
+				"ip": "144.76.15.59",
+				"key": "",
+				"url": "https://tinyurl.com/MAext10x",
+				"voteUrl": "https://ark-servers.net/server/342518/"
+			},
+			{
+				"enabled": true,
+				"name": "Aberration",
+				"queryPort": 27034,
+				"rconPort": 32362,
+				"serverPort": 32362,
+				"ip": "144.76.15.59",
+				"key": "",
+				"url": "https://tinyurl.com/MAabb10x",
+				"voteUrl": "https://ark-servers.net/server/342516/"
+			},
+			{
+				"enabled": true,
+				"name": "Genesis 1",
+				"queryPort": 27035,
+				"rconPort": 32366,
+				"ip": "144.76.15.59",
+				"key": "",
+				"url": "https://tinyurl.com/MAgenone10x",
+				"voteUrl": "https://ark-servers.net/server/342519/"
+			},
+			{
+				"enabled": true,
+				"name": "Genesis 2",
+				"queryPort": 27036,
+				"rconPort": 32368,
+				"ip": "144.76.15.59",
+				"key": "",
+				"url": "https://tinyurl.com/MAgentwo10x",
+				"voteUrl": "https://ark-servers.net/server/342520/"
+			}
+		],
+		"10xBeginnerServer": [
+			{
+				"enabled": true,
+				"name": "The Island",
+				"queryPort": 27037,
+				"rconPort": 33390,
+				"ip": "144.76.15.59",
+				"key": "",
+				"url": "https://tinyurl.com/MAragbeginner",
+				"voteUrl": "https://ark-servers.net/server/342509/"
+			}
+		]
+	}
+}
